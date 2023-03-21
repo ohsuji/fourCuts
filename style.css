@@ -6,3 +6,44 @@
   font-style: normal;
 }
 
+body {
+  font-family: "LeeSeoyun";
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background: url("./image/background.png");
+}
+
+.container {
+  width: 390px;
+  height: 100%;
+  background: #FF9D73;
+}
+
+.photos {
+  margin-top: 30px;
+}
+
+.photo-frame {
+  margin: 15px 20px;
+  background: #FFF;
+  height: 200px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.f-title {
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.f-date {
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 500;
+}
