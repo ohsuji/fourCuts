@@ -25,6 +25,7 @@ body {
 }
 
 .photo-frame {
+  position: relative;
   margin: 15px 20px;
   background: #FFF;
   height: 200px;
@@ -46,4 +47,43 @@ body {
   color: #FFF;
   font-size: 15px;
   font-weight: 500;
+}
+
+#image1 {
+  background: url('./image/img1.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#image2 {
+  background: url('./image/img2.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#image3 {
+  background: url('./image/img3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#image4 {
+  background: url('./image/img4.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.photo-desc {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+
+  color: #FFF;
+  background: #111;
+  width: fit-content;
+
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  border-radius: 20px;
 }
