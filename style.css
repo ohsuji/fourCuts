@@ -11,7 +11,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  background: url("./image/background.png");
+  background: url('./image/background.png');
 }
 
 .container {
@@ -82,7 +82,7 @@ body {
   color: #FFF;
   background: #111;
   width: fit-content;
-
+  
   padding: 5px 15px;
   margin-bottom: 10px;
   border-radius: 20px;
